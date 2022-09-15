@@ -1,43 +1,59 @@
 body {
-    font-family: 'Times New Roman', Times, serif ;
-}
-li {
-    list-style: none;
-    float: left;
-    padding: 13px 20 px;
-}
-.header {
-    background-color: pink;
-    height: 130px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header-logo {
-    font-size: 36px;
-    float: left;
-    padding: 20px 40px;
-}
-.header-list li{
-    float: right;
-    padding: 33px 20px;
+a {
+    text-decoration: none;
 }
 
-.main {
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 200px 0 323px 0;
+    background-image: url(smkn19jakarta-1024x579.jpeg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    background-color: crimson;
+}
+
+.facebook {
+    background-color: blue;
+    margin-right: 10 px;
+}
+
+.twitter {
     background-color: aqua;
-    height: 600px;
-}
-
-.footer {
-    background-color: chartreuse;
-    height: 130px;
-    padding: 20px 40px;
-}
-.footer-logo {
-    font-size: 40px;
-    float: left;
-}
-.footer-list{
-    float: right;
-}
-.footer-list li{
-    padding-bottom: 30px;
 }
