@@ -1,10 +1,26 @@
+.Header {
+    background-color: darkgray;
+    height: 120px;
+}
+
+.Header-logo {
+    font-size: 50px;
+    float: left;
+    padding: 10px 20px;
+}
+.header-list li{
+    float: right;
+    font-size: 30px;
+    padding: 33px 80px;
+}
+
+.header-list li {
+    list-style: none;
+
+}
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-a {
-    text-decoration: none;
 }
 
 .container {
@@ -22,14 +38,14 @@ a {
 }
 
 .top-wrapper h1 {
-    opacity: 0.7;
+    opacity: 1;
     font-size: 50px;
     letter-spacing: 5px;
     margin-bottom: 10px;
 }
 
 .top-wrapper p {
-    opacity: 0.7;
+    opacity: 1;
     margin-bottom: 10px;
 }
 
@@ -37,7 +53,7 @@ a {
     padding: 12px 24px;
     color: white;
     display: inline-block;
-    opacity: 0.7;
+    opacity: 1;
     border-radius: 4px;
 }
 
@@ -56,4 +72,73 @@ a {
 
 .twitter {
     background-color: aqua;
+}
+.main {
+    background-color: aqua;
+    height: 110px 90px;
+}
+
+
+.copy-container h1{
+    font-size: 140px;
+}
+
+.section-title {
+    border-bottom: 2px solid gold; /*batas*/
+}
+
+.content { /*konten*/
+    padding: 0px;
+    width: 1200px;
+    height: auto;
+    margin: 10px auto; /*margin*/
+    text-align: justify;
+}
+
+.kolom-koran{ 
+    -webkit-column-count: 3; /*untuk chrome, safari, dan opera*/
+    -moz-column-count: 3; /*khusus untuk mozilla*/
+    column-count: 3;
+
+}
+
+.submit-contact{
+    background-color: white;
+    color: black;
+}
+
+.contact-form{
+    padding-left: 60px;
+}
+input,text {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+input,textarea{
+    border: 1px solid #dee7ec;
+}
+
+.sumbit-contact{
+    background-color: #dee7ec;
+    color: pink;
+}
+.footer {
+    background-color: rgb(231, 21, 126);
+    height: 120px;
+    padding: 20px 40px;
+}
+.footer-logo {
+    font-size: 40px;
+    float: left;
+}
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    float: right;
+    padding: 33px 80px;
 }
